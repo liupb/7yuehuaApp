@@ -2,7 +2,7 @@
 	"result":[
 	{
 		id:10001,
-    name:"爱你永久爱你永久",
+    name:"爱你永久",
     genre:"鲜花",
     event:"爱情",
     receiver:"恋人",
