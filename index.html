@@ -17,18 +17,24 @@
 <body style="background-color:#fcfadb;">
 
 
-<div id="homepage" class="row" >
+<div id="homePage" class="row" >
  	
    <div class="valign">
   	 <img src="cacheImg/logo.png" />
-  	 <div style="font-size:20px;color:#e99">七月花情感传递专家!</div>
+  	 <div style="font-size:18px;color:#d88">七月花情感传递专家!</div>
   </div>	
+  
+  
   <!--carousel--->
-  <ul class="bxslider">
-        <li><img src="cacheImg/slider/slider1.jpg" /></li>
-        <li><img src="cacheImg/slider/slider2.jpg" /></li>
-        <li><img src="cacheImg/slider/slider3.jpg" /></li>
-  </ul>  
+  
+  <div class="swiper-container"  style="width:100%;" >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> <img src="cacheImg/slider/slider1.jpg"> </div>
+        <div class="swiper-slide"> <img src="cacheImg/slider/slider2.jpg"> </div>
+        <div class="swiper-slide"> <img src="cacheImg/slider/slider3.jpg"> </div>
+      </div>
+  </div>
+  
   <!--end of carousel--->
   
 
@@ -37,9 +43,9 @@
  
     <section class="tabs "  style="text-align:center;" >
 					<ul class="tab-nav">
-						<li class="active "  style="width:20%;margin:0 auto;text-align:center;" ><a  href="#" >全部</a></li>
-						<li  style="width:36%;margin:0 auto;text-align:center;"><a href="#">鲜花</a></li>
-						<li  style="width:36%;margin:0 auto;text-align:center;"><a href="#">蛋糕</a></li>
+						<li class="active "  style="width:30%;margin:0 auto;text-align:center;" ><a  href="#" >全部</a></li>
+						<li  style="width:30%;margin:0 auto;text-align:center;"><a href="#">鲜花</a></li>
+						<li  style="width:30%;margin:0 auto;text-align:center;"><a href="#">蛋糕</a></li>
 					</ul>
 					<div class="tab-content active"  style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey">
 					
@@ -52,17 +58,19 @@
                            <strong>使用场合</strong>
                       </div>
                       <div>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('生日','场合','鲜花');"><strong style="font-size:16px">生日</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('爱情','场合','鲜花');"><strong style="font-size:16px">爱情</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('友情','场合','鲜花');"><strong style="font-size:16px">友情</strong></a></span>  
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('探望','场合','鲜花');"><strong style="font-size:16px">探望</strong></a></span> 
+                            <span class="btn  oval primary"> <a  href="#" onClick="search('生日','场合','鲜花');"><strong style="font-size:14px">生日</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('爱情','场合','鲜花');"><strong style="font-size:14px">爱情</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('友情','场合','鲜花');"><strong style="font-size:14px">友情</strong></a></span>
                             
                             <div class="clearfix" style="margin:2px"></div>
                             
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('升迁','场合','鲜花');"><strong style="font-size:16px">升迁</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('商务','场合','鲜花');"><strong style="font-size:16px">商务</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('祝福','场合','鲜花');"><strong style="font-size:16px">祝福</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('道歉','场合','鲜花');"><strong style="font-size:16px">道歉</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('升迁','场合','鲜花');"><strong style="font-size:14px">升迁</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('商务','场合','鲜花');"><strong style="font-size:14px">商务</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('祝福','场合','鲜花');"><strong style="font-size:14px">祝福</strong></a></span>
+                            <div class="clearfix" style="margin:2px"></div>
+                            
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('探望','场合','鲜花');"><strong style="font-size:14px">探望</strong></a></span> 
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('道歉','场合','鲜花');"><strong style="font-size:14px">道歉</strong></a></span>
                         </div>
                         
                         <p></p>
@@ -71,15 +79,15 @@
                               <strong>赠送对象</strong>
                         </div>
                         <div>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('恋人','对象','鲜花');"><strong style="font-size:16px">恋人</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('朋友','对象','鲜花');"><strong style="font-size:16px">朋友</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('父母','对象','鲜花');"><strong style="font-size:16px">父母</strong></a></span>  
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('恋人','对象','鲜花');"><strong style="font-size:14px">恋人</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('朋友','对象','鲜花');"><strong style="font-size:14px">朋友</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('父母','对象','鲜花');"><strong style="font-size:14px">父母</strong></a></span>  
                             
                             <div class="clearfix" style="margin:2px"></div>
                             
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('老师','对象','鲜花');"><strong style="font-size:16px">老师</strong></a></span> 
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('客户','对象','鲜花');"><strong style="font-size:16px">客户</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('同事','对象','鲜花');"><strong style="font-size:16px">同事</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('老师','对象','鲜花');"><strong style="font-size:14px">老师</strong></a></span> 
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('客户','对象','鲜花');"><strong style="font-size:14px">客户</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('同事','对象','鲜花');"><strong style="font-size:14px">同事</strong></a></span>
                          </div>
                          
                          <p></p>
@@ -89,15 +97,15 @@
                                 <strong>价格范围</strong>
                          </div>
                          <div>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<100','价格','鲜花');"><strong style="font-size:16px">100元内</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<200','价格','鲜花');"><strong style="font-size:16px">200元内</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<300','价格','鲜花');"><strong style="font-size:16px">300元内</strong></a></span>  
-                            
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<100','价格','鲜花');"><strong style="font-size:14px">100元内</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<200','价格','鲜花');"><strong style="font-size:14px">200元内</strong></a></span>
                             <div class="clearfix" style="margin:2px"></div>
                             
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<500','价格','鲜花');"><strong style="font-size:16px">500元内</strong></a></span> 
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<800','价格','鲜花');"><strong style="font-size:16px">800元内</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('>800','价格','鲜花');"><strong style="font-size:16px">超800元</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<300','价格','鲜花');"><strong style="font-size:14px">300元内</strong></a></span>  
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<500','价格','鲜花');"><strong style="font-size:14px">500元内</strong></a></span> 
+                            <div class="clearfix" style="margin:2px"></div>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<800','价格','鲜花');"><strong style="font-size:14px">800元内</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('>800','价格','鲜花');"><strong style="font-size:14px">超800元</strong></a></span>
 					               </div>
 					              
 					</div>              
@@ -107,9 +115,10 @@
                                 <strong>蛋糕品牌</strong>
                          </div>
                          <div>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('好利来','品牌','蛋糕');"><strong style="font-size:16px">好利来</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('元祖','品牌','蛋糕');"><strong style="font-size:16px">元祖</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('安德鲁森','品牌','蛋糕');"><strong style="font-size:16px">安德鲁森</strong></a></span>  
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('好利来','品牌','蛋糕');"><strong style="font-size:14px">好利来</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('元祖','品牌','蛋糕');"><strong style="font-size:14px">元祖</strong></a></span>
+                            <div class="clearfix" style="margin:2px"></div>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('安德鲁森','品牌','蛋糕');"><strong style="font-size:14px">安德鲁森</strong></a></span>  
 					               </div>
 					               <p></p>
 					              
@@ -117,8 +126,8 @@
                                 <strong>配送范围</strong>
                          </div>
                          <div>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('北京','配送','蛋糕');"><strong style="font-size:16px">北京</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('四川','配送','蛋糕');"><strong style="font-size:16px">四川</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('北京','配送','蛋糕');"><strong style="font-size:14px">北京</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('四川','配送','蛋糕');"><strong style="font-size:14px">四川</strong></a></span>
 					               </div>
 					               <p></p>  
 					                                                
@@ -126,15 +135,15 @@
                                 <strong>价格范围</strong>
                          </div>
                          <div>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<100','价格','蛋糕');"><strong style="font-size:16px">100元内</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<200','价格','蛋糕');"><strong style="font-size:16px">200元内</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<300','价格','蛋糕');"><strong style="font-size:16px">300元内</strong></a></span>  
-                            
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<100','价格','蛋糕');"><strong style="font-size:14px">100元内</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<200','价格','蛋糕');"><strong style="font-size:14px">200元内</strong></a></span>
                             <div class="clearfix" style="margin:2px"></div>
                             
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<500','价格','蛋糕');"><strong style="font-size:16px">500元内</strong></a></span> 
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('<800','价格','蛋糕');"><strong style="font-size:16px">800元内</strong></a></span>
-                            <span class="medium btn oval primary"> <a  href="#" onClick="search('>800','价格','蛋糕');"><strong style="font-size:16px">超800元</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<300','价格','蛋糕');"><strong style="font-size:14px">300元内</strong></a></span>  
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<500','价格','蛋糕');"><strong style="font-size:14px">500元内</strong></a></span> 
+                            <div class="clearfix" style="margin:2px"></div>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('<800','价格','蛋糕');"><strong style="font-size:14px">800元内</strong></a></span>
+                            <span class=" btn oval primary"> <a  href="#" onClick="search('>800','价格','蛋糕');"><strong style="font-size:14px">超800元</strong></a></span>
 					               </div>
 
 					              
@@ -144,33 +153,34 @@
 
       
   <p></p>
-
-  <div class="alert secondary" style="padding:5px;margin-bottom:0;border-bottom:0" >           
-    
-     <strong >共找到<span class="badge info">123</span>条结果</strong>
-     
-  </div>
-
+  <div id="resultList">
+      <div class="alert secondary" style="padding:5px;margin-bottom:0;border-bottom:0" >    <strong >共找到<span class="badge light">{{total}}</span>条结果</strong>
+      </div>
   
-  <ul style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey" >
-          <li class="row" style="float:left;padding:5px;">
-                 <div style="float:left;height:100px;width:100px" class="rounded" >
+      <ul style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey;" >
+          {{#result}}
+          
+          <li class="row" style="padding:5px;position:relative">
+          	  <article >
+                 <div style="float:left;height:80px;width:80px" class="rounded" >
                      <img  src="cacheImg/e97c887bfc4a4bbc9645281442453581_big.jpg"/>
                  </div>
-                 <div style="float:left;">
-                     <h4 style="white-space:nowrap;overflow:hidden;width:150px">天长地久</h4>
-                     <span class="label default">爱情</span> <span class="label default">恋人</span><br/>
-                     <strong class="label danger">￥168</strong><small style='text-decoration:line-through'>原价￥168</small>
+                 <div style="white-space:nowrap;overflow:hidden;">
+                     <h4>{{name}}</h4>
+                     <span class="label default">{{event}}</span> <span class="label default">{{receiver}}</span>
                  </div>
-                 <div style="float:right;padding-top:20px;">
-                     <div class="btn medium danger oval icon-right icon-search" style=""  ><a href="#" onClick="">查看</a>
-                     </div>
-                 
-                 </div>
-           </li> 
+                </article>
+                <aside style="right:5px;top:15px;padding:5px;position:absolute;background-color:white">
+                   <div class="btn medium danger oval "><a href="#" onClick="showDetail(0)">{{promo}}元</a> </div>
+                   <div style='text-decoration:line-through;color:lightgrey;text-align:center'><small>{{price}}元</small></div>
+                </aside>
+           </li>
+          
            <div style="float:none;clear:both"></div>
+           {{/result}}
 
-  </ul>
+      </ul>
+ </div>
   
   <div  class="btn medium  primary oval"  style="width:100%">
           <a  style="font-size:18px" href="#">更多</a>
@@ -184,20 +194,22 @@
   <!----------------------------------------------------------------------------------------------------------->
   <!----------------------------------------------------------------------------------------------------------->
   <!----------------------------------------------------------------------------------------------------------->
-  <div id="detail"  class="row" >
-  	 
+  <div id="detailPage"  class="row hide" style="position:absolute;top:0;left:0;background-color:#fcfadb" >
+  	
+  	<div id="detail">
+  		
   	 <div  class="valign"> 
    	
-     <div class="image photo"style="width:50%;">
-        <img src="cacheImg/e97c887bfc4a4bbc9645281442453581_big.jpg"/>
+     <div class="image photo"  style="width:50%;">
+        <img src={{snapshot}} style="width:100%;"/>
      </div>
      
       <div style="text-align:center;padding-left:10px">
-        <h3>爱你永久</h3>
-        <span class="label default" style="height:30px;padding:5px;font-size:16px">爱情</span> <span class="label default" style="height:30px;padding:5px;font-size:16px">恋人</span>
+        <h4>{{name}}</h4>
+        <span class="label default" style="height:30px;padding:5px;font-size:16px">{{event}}</span> <span class="label default" style="height:30px;padding:5px;font-size:16px">{{receiver}}</span>
         <p style="height:10px"></p>
-        <strong class="label danger"  style="height:30px;padding:5px;font-size:20px">298元</strong>
-        <span  style='text-decoration:line-through'>355元</span> 
+        <strong  style="height:30px;padding:5px;font-size:20px;color:red">{{promo}}元</strong>
+        <span  style='text-decoration:line-through;font-size:16px;color:darkgrey'>{{price}}元</span>
         <div class="btn danger medium oval" style="width:100%;height:40px;margin-top:20px;font-size:24px"><a href="#">购买</a></div>
       </div> 
       
@@ -205,70 +217,51 @@
     <p></p>
       
       
-     
+
 
      <p></p>
           <section class="tabs">
     					<ul class="tab-nav">
-    						<li class="active"><a href="#">商品描述</a></li>
-    						<li><a href="#">商品特性</a></li>
-    						<li><a href="#">重要信息</a></li>
+    						<li class="active"><a href="#">描述</a></li>
+    						<li><a href="#">说明</a></li>
+    						<li><a href="#">信息</a></li>
      					</ul>
     					<div class="tab-content active"  style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey">
                  <table class="striped">
                  	<tbody>
                  		<tr>
                     <td style="width:80px"><strong>花型</strong></td>	 
-                    <td>扇形</td>
+                    <td>{{descript.shape}}</td>
                     </tr><tr>
                     <td><strong>材料</strong></td>
-                    <td>21支粉玫瑰，4支百合，绿叶适量搭配</td> 
+                    <td>{{descript.content}}</td>
                     </tr><tr> 
-                    <td><strong>包装</strong></td>	 
-                    <td>紫色礼品纸内衬，紫色瓦楞纸、手揉纸呈扇形包装，紫色、银色丝带束扎</td>  
-                    </tr><tr> 
+                    <td><strong>包装</strong></td>
+                    <td>{{descript.wrapper}}</td>
+                    </tr><tr>
                     <td><strong>尺寸</strong></td>
-                    <td>直径30-40厘米</td> 
+                    <td>{{descript.size}}</td>
                     </tr><tr> 
                     <td><strong>花语</strong></div>
-                    <td>天变、地变、海变、人变,世界更是变、变、变,唯一永恒的是——我对你的情、我对你的爱、还有一颗早已为你沉醉的心。</td>
-                    </tr>  
+                    <td>{{descript.code}}</td>
+                    </tr>
                   </tbody> 
                  </table>
                  
-                 <div style="text-align:center">
-                     <img src="cacheImg/71b6065f04314eb3ac1ded07111610a2.jpg"/>
-                 
-                     <img src="cacheImg/642eb6f685bd4c5fbe421ccd0fc793e9.jpg" />
-                 </div>
+                 <div style="text-align:center">{{{descript.html}}}</div>
               </div>
+
+              <div class="tab-content"   style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey">{{{feature}}}</div>   
+              <div class="tab-content"  style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey">{{{info}}}</div>
               
-              <div class="tab-content"   style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey">
-                <ol>
-                  <li>全国大中城市大中心城区范围均可免费配送，涉及高新区、工业区等远郊、边陲及不发达城市，少数或游牧民族聚居地、县城和机场请先跟客服确认是否可配送及相关费用，偏远乡镇及农村暂不能配送，请勿下单。</li>
-                  <li>免费附赠留言贺卡（不备注留言内容的，不赠送贺卡）。</li>
-                  <li>质量问题可按相关条例免费退换货。</li>
-                  <li>可指定送达日期（没在地址栏备注日期的，默认支付成功的第二天送达），方便快捷。客服热线：028-85460226-802</li>
-                 </ol>
-              </div>   
-              <div class="tab-content"  style="background-color:#FFF;border-width:0 1px 1px 1px;border-style:solid;border-color:lightgrey">
-                <ol>
-                 <li>鲜花属于鲜活产品，无法进行二次销售。已发货产品，非质量问题不进行退换货。</li>
-                 <li>可指定送达日期（没在地址栏备注日期的，默认支付成功的第二天送达），方便快捷。请下单时务必在地址栏中注明配送日期，留言（没有留言的客户，不赠送贺卡），以及您的联系方式。客服热线：028-85460226-802，QQ：2535100958</li>
-                 <li>由于鲜花的季节性和供货渠道变化性较强，可能顾客选择的某种花材无法供应，对于非主要花材，我们在尽量不影响顾客所选的鲜花效果
-      的情况下，按照寓意相同、类似花材、价值相同替代原则代替，对于主要花材，我们将在征求您的意见后进行处理。</li>
-                 <li>鉴于鲜花这种产品的特殊性，我们不能保证实物能做到完全与图片完全一致，但可以保证我们的产品都是由当地合格的花艺师采用新鲜花
-      材制作的，我们能够保证主花材的质量及数量，和花束的基本包装。</li>
-                 <li>由于鲜花属于鲜养商品，对于客户恶意拒收鲜花，我们一律按送货完毕处理，鲜花商品不接受退货，不便之处敬请谅解！</li>
-               </ol>
-              </div>
-              
-        </section> <!--end of section-->
+          </section> <!--end of tab section-->
        
-                   
-      <p></p>
+    </div><!--end of #detail-->
     
-      <div class="btn primary medium oval" style="width:100%"><a href="#">返回</a></div>
+    <p></p>
+    
+    <div class="btn info medium oval" style="width:30%;float:left;"><a href="#" onClick="hideDetail();">返回</a></div>
+    <div class="btn danger medium oval" style="width:60%;float:right;"><a href="#" onClick="hideDetail();">购买</a></div>
 
 
   </div><!--end of detail PAGE-->
@@ -317,15 +310,15 @@
 
 	
 	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
-	<script src="js/libs/ui/gumby.retina.js"></script>
-	<script src="js/libs/ui/gumby.fixed.js"></script>
+	<!--<script src="js/libs/ui/gumby.retina.js"></script>-->
+	<!--<script src="js/libs/ui/gumby.fixed.js"></script>-->
 	<!--<script src="js/libs/ui/gumby.skiplink.js"></script>-->
 	<!--<script src="js/libs/ui/gumby.toggleswitch.js"></script>-->
 	<!--<script src="js/libs/ui/gumby.checkbox.js"></script>-->
 	<!--<script src="js/libs/ui/gumby.radiobtn.js"></script>-->
-	<script src="js/libs/ui/gumby.tabs.js"></script>
 	<!--<script src="js/libs/ui/gumby.navbar.js"></script>-->
 	<!--<script src="js/libs/ui/jquery.validation.js"></script>-->
+	<script src="js/libs/ui/gumby.tabs.js"></script>
 	<script src="js/libs/gumby.init.js"></script>
 
 	<!--
@@ -337,9 +330,10 @@
 
 
   <!-- bxSlider Javascript file -->
-  <script src="js/jquery.bxslider.min.js"></script>
-  <!-- bxSlider CSS file -->
-  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <script src="js/idangerous.swiper-2.1.min.js"></script>
+  
+  <script src="js/hogan.min.js"></script>
   
   <script src="7yuehua.js"></script>
   
